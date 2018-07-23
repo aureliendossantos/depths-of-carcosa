@@ -34,8 +34,9 @@ false"
 black"
 false:ITextFieldProfile[["default"default"0"54"6"6"darkblue:IWindowProfile[[	"default"default"0"darkblue:ISkipTitle[[
 "SkipTitle"
-false"0"0"0:AttackArea[[
+false"0"0"0:AttackArea[[
 "
 basic".V[1]=create_rect_area(V[1], V[2]-1, 0, 0)".V[1]=create_rect_area(V[1], V[2]+1, 0, 0)".V[1]=create_rect_area(V[1]-1, V[2], 0, 0)".V[1]=create_rect_area(V[1]+1, V[2], 0, 0)[
 "
-sword"0V[1]=create_rect_area(V[1]-1, V[2]-1, 2, 0)"0V[1]=create_rect_area(V[1]-1, V[2]+1, 2, 0)"0V[1]=create_rect_area(V[1]-1, V[2]-1, 0, 2)"0V[1]=create_rect_area(V[1]+1, V[2]-1, 0, 2)
+spear".V[1]=create_rect_area(V[1], V[2]-2, 0, 1)".V[1]=create_rect_area(V[1], V[2]+1, 0, 1)".V[1]=create_rect_area(V[1]-2, V[2], 1, 0)".V[1]=create_rect_area(V[1]+1, V[2], 1, 0)[
+"shotgun"0V[1]=create_rect_area(V[1]-1, V[2]-1, 2, 0)"0V[1]=create_rect_area(V[1]-1, V[2]+1, 2, 0)"0V[1]=create_rect_area(V[1]-1, V[2]-1, 0, 2)"0V[1]=create_rect_area(V[1]+1, V[2]-1, 0, 2)

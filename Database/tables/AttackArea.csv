@@ -1,3 +1,4 @@
 name;up;down;left;right
 basic;V[1]=create_rect_area(V[1], V[2]-1, 0, 0);V[1]=create_rect_area(V[1], V[2]+1, 0, 0);V[1]=create_rect_area(V[1]-1, V[2], 0, 0);V[1]=create_rect_area(V[1]+1, V[2], 0, 0)
-sword;V[1]=create_rect_area(V[1]-1, V[2]-1, 2, 0);V[1]=create_rect_area(V[1]-1, V[2]+1, 2, 0);V[1]=create_rect_area(V[1]-1, V[2]-1, 0, 2);V[1]=create_rect_area(V[1]+1, V[2]-1, 0, 2)
+spear;V[1]=create_rect_area(V[1], V[2]-2, 0, 1);V[1]=create_rect_area(V[1], V[2]+1, 0, 1);V[1]=create_rect_area(V[1]-2, V[2], 1, 0);V[1]=create_rect_area(V[1]+1, V[2], 1, 0)
+shotgun;V[1]=create_rect_area(V[1]-1, V[2]-1, 2, 0);V[1]=create_rect_area(V[1]-1, V[2]+1, 2, 0);V[1]=create_rect_area(V[1]-1, V[2]-1, 0, 2);V[1]=create_rect_area(V[1]+1, V[2]-1, 0, 2)
